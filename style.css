@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+header {
+    font-family: "Odibee Sans", cursive;
+    font-size: 500%;
+    background-color: gray;
+    margin: 0%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
