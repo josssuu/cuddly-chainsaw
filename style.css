@@ -95,4 +95,8 @@ html, body {
 .content p {
     text-align: middle;
     vertical-align: middle;
+    
+.peakorter {
+    padding-left: 30px;
+    padding-top: 30px;
 }
