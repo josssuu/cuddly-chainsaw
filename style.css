@@ -57,3 +57,21 @@
 .menu a li:hover {
     color: red
 }
+
+.esindus {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 1000px;
+    height: 300px;
+}
+
+.vasak_tulp {
+    float: left;
+    margin-right: 20px;
+}
+
+.parem_tulp {
+    padding-left: 20px;
+    font-size: 130%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
