@@ -81,21 +81,44 @@ html, body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.sisucanvas {
+    height: 90%;
+    width: 100%;
+    background-color: aqua;
+    display: table;
+    float: left;
+}
+
 .sisu {
     height: 90%;
-    background-color: aqua;
-    display: block;
+    width: 1000px;
+    display: table;
+    margin: 0 auto;
+    background-color: green;
 }
 
-.content {
-    height: 100%;
-    display: block;
-}
-
-.content p {
-    text-align: middle;
+.rida {
+    height: auto;
+    width: auto;
+    display: table-row;
+    background-color: red;
+    text-align: center;
     vertical-align: middle;
-    
+    border: 2px solid green;
+}
+
+.box {
+    display: table-cell;
+    width: auto;
+    height: 100%;
+    border: 5px solid black;
+}
+
+#vasakul {
+    text-align: left;
+}
+
+
 .peakorter {
     padding-left: 30px;
     padding-top: 30px;
