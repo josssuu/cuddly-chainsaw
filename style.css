@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -90,34 +92,58 @@ html, body {
 }
 
 .sisu {
-    height: 90%;
+    height: 100%;
     width: 1000px;
     display: table;
     margin: 0 auto;
-    background-color: green;
+    background-color:violet;
 }
 
-.rida {
-    height: auto;
-    width: auto;
-    display: table-row;
-    background-color: red;
+.moto {
+    padding: 10px;
     text-align: center;
-    vertical-align: middle;
-    border: 2px solid green;
+    margin-top: 50px;
 }
 
-.box {
-    display: table-cell;
+.moto h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 425%;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px gray;
+}
+
+.moto p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    font-weight: 300;
+    
+}
+
+
+.tabel{
+    padding: 25px;
+    font-size: 200%;
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+}
+
+.tabel li{
+    list-style: square;
+}
+
+.watch {
+    height: 300px;
     width: auto;
-    height: 100%;
-    border: 5px solid black;
-    float;
+    float: right;
+    padding: 50px;
 }
 
-#vasakul {
-    text-align: left;
-}
+
+
+
+
+
 
 
 .peakorter {
