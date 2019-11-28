@@ -84,7 +84,7 @@ html, body {
 .sisucanvas {
     height: 90%;
     width: 100%;
-    background-color: aqua;
+    background-color: gray;
     display: table;
     float: left;
 }
@@ -112,6 +112,7 @@ html, body {
     width: auto;
     height: 100%;
     border: 5px solid black;
+    float;
 }
 
 #vasakul {
