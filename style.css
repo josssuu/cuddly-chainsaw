@@ -86,7 +86,7 @@ html, body {
 .sisucanvas {
     height: 90%;
     width: 100%;
-    background-color: gray;
+    background-color: pink;
     display: table;
     float: left;
 }
