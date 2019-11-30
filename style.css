@@ -1,3 +1,5 @@
+/* universaalsete classide algus */
+
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 * {
@@ -6,11 +8,13 @@
     list-style: none;
     text-decoration: none;
 }
+
 html, body {
     height: 100%;
     margin: 0;
 }
 
+/* ülemise valikuriba algus */
 .header {
     width: 100%;
     height: 100px;
@@ -23,12 +27,13 @@ html, body {
     height: 100%;
     display: block;
     margin: 0 auto;
+
 }
+
 .container {
     height: 100%;
     display: table;
     float: left;
-    
 }
 
 .container h1 {
@@ -64,32 +69,7 @@ html, body {
 .menu a li:hover {
     color: red
 }
-
-.esindus {
-    padding-top: 50px;
-    padding-left: 20px;
-    width: 1000px;
-    height: 300px;
-}
-
-.vasak_tulp {
-    float: left;
-    margin-right: 20px;
-}
-
-.parem_tulp {
-    padding-left: 20px;
-    float: left;
-    font-size: 130%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.infotulp {
-    float: left;
-    padding-top: 20px;
-    padding-left: 10px;
-    font-size: 90%;
-}
+/* ülemise valikuriba lõpp */
 
 .sisucanvas {
     height: 90%;
@@ -110,6 +90,17 @@ html, body {
     border: 5px groove gray;
 }
 
+/* universaalsete classide lõpp */
+
+
+
+
+
+
+
+
+/* pealehe algus */
+
 .moto {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -128,10 +119,7 @@ html, body {
     font-family: 'Dancing Script', cursive;
     font-size: 150%;
     font-weight: 300;
-    
-    
 }
-
 
 .tutvustus{
     width: 350px;
@@ -150,10 +138,7 @@ html, body {
 }
 
 
-
-
-
-
+/* pealehe slideri algus */
 .slider-holder {
     width: 500px;
     height: 500px;
@@ -209,9 +194,7 @@ html, body {
     border-radius: 5px;
     background-color: whitesmoke;
 }
-
-
-
+/* pealehe slideri lõpp */
 
 
 .peakorter {
@@ -235,6 +218,17 @@ html, body {
     border: 3px inset black;
 }
 
+/* pealehe lõpp */
+
+
+
+
+
+
+
+
+/* e-poe algus */
+
 .tootekast {
     padding-top: 30px;
     width: 100%;
@@ -250,6 +244,11 @@ html, body {
     background-color: lightgray;
 }
 
+.pilt {
+    height: 320px;
+    border: 2px solid brown;
+}
+
 .link {
     color: black;
 }
@@ -258,9 +257,41 @@ html, body {
     color: red;
 }
 
-.pilt {
-    height: 320px;
-    border: 2px solid brown;
+/* e-poe lõpp */
+
+
+
+
+
+
+
+
+/* kontakti algus */
+
+.esindus {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 1000px;
+    height: 300px;
+}
+
+.vasak_tulp {
+    float: left;
+    margin-right: 20px;
+}
+
+.parem_tulp {
+    padding-left: 20px;
+    float: left;
+    font-size: 130%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.infotulp {
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 90%;
 }
 
 .esinduse_pilt {
@@ -268,3 +299,5 @@ html, body {
     height: 300px;
     border: 2px groove black;
 }
+
+/* kontakti lõpp */
