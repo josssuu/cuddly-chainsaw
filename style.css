@@ -11,6 +11,7 @@ html, body {
     margin: 0;
 }
 
+
 .header {
     width: 100%;
     height: 100px;
@@ -46,14 +47,14 @@ html, body {
     float: right;
 }
 
-.menu a {
+.menu li {
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
 }
 
-.menu a li {
+.menu li a {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -215,7 +216,6 @@ html, body {
 
 
 .peakorter {
-    align: center;
     text-align: center;
     width: 800px;
     height: 500px;
@@ -231,7 +231,6 @@ html, body {
 .google_maps {
     width: 600px;
     height: 450px;
-    align: center;
     border: 3px inset black;
 }
 
