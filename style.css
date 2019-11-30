@@ -205,6 +205,14 @@ html, body {
     background-color: lightgray;
 }
 
+.link {
+    color: black;
+}
+
+.link:hover{
+    color: red;
+}
+
 .pilt {
     height: 320px;
     border: 2px solid brown;
